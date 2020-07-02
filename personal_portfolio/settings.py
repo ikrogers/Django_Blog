@@ -53,9 +53,9 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'personal_portfolio.urls'
 
 TEMPLATES = [
-    {
+    {#Register templates here you have to add base.html templates in DIRS array.
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["personal_portfolio/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
